@@ -48,9 +48,9 @@ public class CalculosCalculadora {
         return Math.tan(numero1);
     }
     
-    public double Potencia(double numero, double potencia)
+    public double Potencia(double numero1, double numero2)
     {
-        return Math.pow(numero, potencia);
+        return Math.pow(numero1, numero2);
     }
     
     public boolean ValidacionDivisionCero(float numero1, float numero2){

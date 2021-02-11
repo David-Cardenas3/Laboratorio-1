@@ -20,7 +20,7 @@ public class Laboratorio12021 {
         // TODO code application logic here
         
         //Construyo el objeto calculadotra
-      /*  CalculosCalculadora model= new CalculosCalculadora();
+       /* CalculosCalculadora model= new CalculosCalculadora();
         Scanner teclado = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Bienvenido a la calculadora");
         
@@ -47,7 +47,6 @@ public class Laboratorio12021 {
                          numero2 = teclado.nextLine();
 
                          System.out.println(model.Suma(Float.parseFloat(numero1), Float.parseFloat(numero2)));
-                        //desarrollo
                         break;
                     case "2":
                          System.out.println("Digite el primer número");
@@ -58,30 +57,53 @@ public class Laboratorio12021 {
                          System.out.println(model.Resta(Float.parseFloat(numero1), Float.parseFloat(numero2)));
                         break;
                     case "3":
-                        //desarrollo
+                        System.out.println("Digite el primer número");
+                         numero1 = teclado.nextLine();
+                         System.out.println("Digite el segundo número");
+                         numero2 = teclado.nextLine();
+
+                         System.out.println(model.Multiplicacion(Float.parseFloat(numero1), Float.parseFloat(numero2)));
                         break;
                     case "4":
-                        //desarrollo
+                         System.out.println("Digite el primer número");
+                         numero1 = teclado.nextLine();
+                         System.out.println("Digite el segundo número");
+                         numero2 = teclado.nextLine();
+
+                         System.out.println(model.Division(Float.parseFloat(numero1), Float.parseFloat(numero2)));
                         break;
                     case "5":
-                        //desarrollo
-                        break;
+                         System.out.println("Digite el número");
+                         numero1 = teclado.nextLine();
+                       
+                         System.out.println(model.Seno(Double.parseDouble(numero1)));
+                         break;
                     case "6":
-                        //desarrollo
+                        System.out.println("Digite el número");
+                         numero1 = teclado.nextLine();
+                       
+                         System.out.println(model.Cos(Double.parseDouble(numero1)));
                         break;
                     case "7":
-                        //desarrollo
+                        System.out.println("Digite el número");
+                         numero1 = teclado.nextLine();
+                       
+                         System.out.println(model.Tan(Double.parseDouble(numero1)));
                         break;
                     case "8":
-                        //desarrollo
-                        break;
+                        System.out.println("Digite el número");
+                         numero1 = teclado.nextLine();
+                         System.out.println("Digite el número");
+                         numero2 = teclado.nextLine();
+                       
+                         System.out.println(model.Potencia(Double.parseDouble(numero1), Double.parseDouble(numero2)));
+                         break;
                     default:
                         System.out.println("La opción seleccionada no es correcta");
                 }
-        
-        
+       
         }
-        */
+       */
         
     }
     
